@@ -1,0 +1,1060 @@
+2025-04-17 23:00:27,615 - DEBUG - toplevel widget is MainController
+2025-04-17 23:00:27,616 - DEBUG - setting property geometry
+2025-04-17 23:00:27,616 - DEBUG - setting property windowTitle
+2025-04-17 23:00:27,616 - DEBUG - push MainController MainWindow
+2025-04-17 23:00:27,616 - DEBUG - push QWidget centralwidget
+2025-04-17 23:00:27,617 - DEBUG - setting property pyuicMargins
+2025-04-17 23:00:27,617 - DEBUG - push QVBoxLayout verticalLayout
+2025-04-17 23:00:27,618 - DEBUG - push QFrame mainFrame
+2025-04-17 23:00:27,618 - DEBUG - push QVBoxLayout mainLayout
+2025-04-17 23:00:27,618 - DEBUG - setting property text
+2025-04-17 23:00:27,618 - DEBUG - setting property icon
+2025-04-17 23:00:27,621 - DEBUG - push QPushButton uploadBtn
+2025-04-17 23:00:27,621 - DEBUG - pop widget QPushButton uploadBtn
+2025-04-17 23:00:27,621 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001AF0C1100F0>
+2025-04-17 23:00:27,622 - DEBUG - setting property minimumHeight
+2025-04-17 23:00:27,622 - DEBUG - setting property font
+2025-04-17 23:00:27,624 - DEBUG - push QComboBox shuffleCombo
+2025-04-17 23:00:27,624 - DEBUG - pop widget QComboBox shuffleCombo
+2025-04-17 23:00:27,624 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001AF0C1100F0>
+2025-04-17 23:00:27,625 - DEBUG - setting property text
+2025-04-17 23:00:27,625 - DEBUG - push QCheckBox aiCheckBox
+2025-04-17 23:00:27,625 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-04-17 23:00:27,625 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001AF0C1100F0>
+2025-04-17 23:00:27,628 - DEBUG - setting property visible
+2025-04-17 23:00:27,628 - DEBUG - push QLineEdit apiKeyInput
+2025-04-17 23:00:27,628 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-04-17 23:00:27,628 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001AF0C1100F0>
+2025-04-17 23:00:27,628 - DEBUG - setting property text
+2025-04-17 23:00:27,628 - DEBUG - setting property alignment
+2025-04-17 23:00:27,645 - DEBUG - push QLabel previewLabel
+2025-04-17 23:00:27,645 - DEBUG - pop widget QLabel previewLabel
+2025-04-17 23:00:27,645 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001AF0C1100F0>
+2025-04-17 23:00:27,645 - DEBUG - push QProgressBar progressBar
+2025-04-17 23:00:27,645 - DEBUG - pop widget QProgressBar progressBar
+2025-04-17 23:00:27,646 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001AF0C1100F0>
+2025-04-17 23:00:27,646 - DEBUG - push QHBoxLayout buttonLayout
+2025-04-17 23:00:27,646 - DEBUG - setting property text
+2025-04-17 23:00:27,646 - DEBUG - push QPushButton previewBtn
+2025-04-17 23:00:27,646 - DEBUG - pop widget QPushButton previewBtn
+2025-04-17 23:00:27,646 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001AF0C1100F0>
+2025-04-17 23:00:27,646 - DEBUG - setting property text
+2025-04-17 23:00:27,646 - DEBUG - push QPushButton generateBtn
+2025-04-17 23:00:27,646 - DEBUG - pop widget QPushButton generateBtn
+2025-04-17 23:00:27,646 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001AF0C1100F0>
+2025-04-17 23:00:27,646 - DEBUG - setting property text
+2025-04-17 23:00:27,646 - DEBUG - push QPushButton printBtn
+2025-04-17 23:00:27,646 - DEBUG - pop widget QPushButton printBtn
+2025-04-17 23:00:27,646 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001AF0C1100F0>
+2025-04-17 23:00:27,646 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-04-17 23:00:27,647 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-04-17 23:00:27,647 - DEBUG - pop widget QFrame mainFrame
+2025-04-17 23:00:27,647 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x000001AF0C0E7F70>
+2025-04-17 23:00:27,647 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-04-17 23:00:27,647 - DEBUG - pop widget QWidget centralwidget
+2025-04-17 23:00:27,647 - DEBUG - new topwidget <ui.controller.MainController object at 0x000001AF0C0E6F30>
+2025-04-17 23:00:27,647 - DEBUG - push QStatusBar statusbar
+2025-04-17 23:00:27,647 - DEBUG - pop widget QStatusBar statusbar
+2025-04-17 23:00:27,647 - DEBUG - new topwidget <ui.controller.MainController object at 0x000001AF0C0E6F30>
+2025-04-17 23:00:27,647 - DEBUG - pop widget MainController MainWindow
+2025-04-17 23:00:27,647 - DEBUG - new topwidget None
+2025-04-17 23:02:33,579 - INFO - Iniciando geração do PDF da prova
+2025-04-17 23:02:33,579 - DEBUG - Iniciando criação do PDF customizado
+2025-04-17 23:02:33,579 - DEBUG - Configurando tamanho da página: 209.95583531274414mm x 297.04260722509764mm
+2025-04-17 23:02:33,579 - DEBUG - CustomPDF inicializado com sucesso
+2025-04-17 23:02:33,579 - DEBUG - Gerando cabeçalho
+2025-04-17 23:02:33,586 - DEBUG - STREAM b'IHDR' 16 13
+2025-04-17 23:02:33,586 - DEBUG - STREAM b'pHYs' 41 9
+2025-04-17 23:02:33,586 - DEBUG - STREAM b'IDAT' 62 80944
+2025-04-17 23:02:33,593 - DEBUG - Cabeçalho gerado com sucesso
+2025-04-17 23:02:33,593 - DEBUG - Página inicial adicionada
+2025-04-17 23:02:33,594 - ERROR - Erro fatal na geração da prova: 1 cannot convert to a Align
+2025-05-03 10:46:37,421 - DEBUG - toplevel widget is MainController
+2025-05-03 10:46:37,421 - DEBUG - setting property geometry
+2025-05-03 10:46:37,421 - DEBUG - setting property windowTitle
+2025-05-03 10:46:37,423 - DEBUG - push MainController MainWindow
+2025-05-03 10:46:37,425 - DEBUG - push QWidget centralwidget
+2025-05-03 10:46:37,428 - DEBUG - setting property pyuicMargins
+2025-05-03 10:46:37,429 - DEBUG - push QVBoxLayout verticalLayout
+2025-05-03 10:46:37,431 - DEBUG - push QFrame mainFrame
+2025-05-03 10:46:37,431 - DEBUG - push QVBoxLayout mainLayout
+2025-05-03 10:46:37,433 - DEBUG - setting property text
+2025-05-03 10:46:37,438 - DEBUG - setting property icon
+2025-05-03 10:46:37,464 - DEBUG - push QPushButton uploadBtn
+2025-05-03 10:46:37,465 - DEBUG - pop widget QPushButton uploadBtn
+2025-05-03 10:46:37,465 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000011EB04D00F0>
+2025-05-03 10:46:37,471 - DEBUG - setting property minimumHeight
+2025-05-03 10:46:37,471 - DEBUG - setting property font
+2025-05-03 10:46:37,486 - DEBUG - push QComboBox shuffleCombo
+2025-05-03 10:46:37,489 - DEBUG - pop widget QComboBox shuffleCombo
+2025-05-03 10:46:37,489 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000011EB04D00F0>
+2025-05-03 10:46:37,489 - DEBUG - setting property text
+2025-05-03 10:46:37,489 - DEBUG - push QCheckBox aiCheckBox
+2025-05-03 10:46:37,490 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-05-03 10:46:37,490 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000011EB04D00F0>
+2025-05-03 10:46:37,505 - DEBUG - setting property visible
+2025-05-03 10:46:37,505 - DEBUG - push QLineEdit apiKeyInput
+2025-05-03 10:46:37,505 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-05-03 10:46:37,505 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000011EB04D00F0>
+2025-05-03 10:46:37,507 - DEBUG - setting property text
+2025-05-03 10:46:37,508 - DEBUG - setting property alignment
+2025-05-03 10:46:37,527 - DEBUG - push QLabel previewLabel
+2025-05-03 10:46:37,527 - DEBUG - pop widget QLabel previewLabel
+2025-05-03 10:46:37,527 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000011EB04D00F0>
+2025-05-03 10:46:37,529 - DEBUG - push QProgressBar progressBar
+2025-05-03 10:46:37,529 - DEBUG - pop widget QProgressBar progressBar
+2025-05-03 10:46:37,529 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000011EB04D00F0>
+2025-05-03 10:46:37,529 - DEBUG - push QHBoxLayout buttonLayout
+2025-05-03 10:46:37,530 - DEBUG - setting property text
+2025-05-03 10:46:37,530 - DEBUG - push QPushButton previewBtn
+2025-05-03 10:46:37,530 - DEBUG - pop widget QPushButton previewBtn
+2025-05-03 10:46:37,530 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000011EB04D00F0>
+2025-05-03 10:46:37,530 - DEBUG - setting property text
+2025-05-03 10:46:37,530 - DEBUG - push QPushButton generateBtn
+2025-05-03 10:46:37,530 - DEBUG - pop widget QPushButton generateBtn
+2025-05-03 10:46:37,530 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000011EB04D00F0>
+2025-05-03 10:46:37,530 - DEBUG - setting property text
+2025-05-03 10:46:37,530 - DEBUG - push QPushButton printBtn
+2025-05-03 10:46:37,530 - DEBUG - pop widget QPushButton printBtn
+2025-05-03 10:46:37,530 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000011EB04D00F0>
+2025-05-03 10:46:37,530 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-05-03 10:46:37,531 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-05-03 10:46:37,531 - DEBUG - pop widget QFrame mainFrame
+2025-05-03 10:46:37,531 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x0000011EB04A7F70>
+2025-05-03 10:46:37,531 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-05-03 10:46:37,531 - DEBUG - pop widget QWidget centralwidget
+2025-05-03 10:46:37,531 - DEBUG - new topwidget <ui.controller.MainController object at 0x0000011EB04A6F30>
+2025-05-03 10:46:37,533 - DEBUG - push QStatusBar statusbar
+2025-05-03 10:46:37,534 - DEBUG - pop widget QStatusBar statusbar
+2025-05-03 10:46:37,534 - DEBUG - new topwidget <ui.controller.MainController object at 0x0000011EB04A6F30>
+2025-05-03 10:46:37,534 - DEBUG - pop widget MainController MainWindow
+2025-05-03 10:46:37,534 - DEBUG - new topwidget None
+2025-05-03 10:51:54,718 - DEBUG - toplevel widget is MainController
+2025-05-03 10:51:54,718 - DEBUG - setting property geometry
+2025-05-03 10:51:54,718 - DEBUG - setting property windowTitle
+2025-05-03 10:51:54,718 - DEBUG - push MainController MainWindow
+2025-05-03 10:51:54,718 - DEBUG - push QWidget centralwidget
+2025-05-03 10:51:54,719 - DEBUG - setting property pyuicMargins
+2025-05-03 10:51:54,719 - DEBUG - push QVBoxLayout verticalLayout
+2025-05-03 10:51:54,720 - DEBUG - push QFrame mainFrame
+2025-05-03 10:51:54,720 - DEBUG - push QVBoxLayout mainLayout
+2025-05-03 10:51:54,720 - DEBUG - setting property text
+2025-05-03 10:51:54,720 - DEBUG - setting property icon
+2025-05-03 10:51:54,723 - DEBUG - push QPushButton uploadBtn
+2025-05-03 10:51:54,723 - DEBUG - pop widget QPushButton uploadBtn
+2025-05-03 10:51:54,723 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001D8776000F0>
+2025-05-03 10:51:54,724 - DEBUG - setting property minimumHeight
+2025-05-03 10:51:54,724 - DEBUG - setting property font
+2025-05-03 10:51:54,726 - DEBUG - push QComboBox shuffleCombo
+2025-05-03 10:51:54,726 - DEBUG - pop widget QComboBox shuffleCombo
+2025-05-03 10:51:54,726 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001D8776000F0>
+2025-05-03 10:51:54,726 - DEBUG - setting property text
+2025-05-03 10:51:54,726 - DEBUG - push QCheckBox aiCheckBox
+2025-05-03 10:51:54,726 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-05-03 10:51:54,726 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001D8776000F0>
+2025-05-03 10:51:54,730 - DEBUG - setting property visible
+2025-05-03 10:51:54,730 - DEBUG - push QLineEdit apiKeyInput
+2025-05-03 10:51:54,730 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-05-03 10:51:54,730 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001D8776000F0>
+2025-05-03 10:51:54,730 - DEBUG - setting property text
+2025-05-03 10:51:54,730 - DEBUG - setting property alignment
+2025-05-03 10:51:54,747 - DEBUG - push QLabel previewLabel
+2025-05-03 10:51:54,747 - DEBUG - pop widget QLabel previewLabel
+2025-05-03 10:51:54,747 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001D8776000F0>
+2025-05-03 10:51:54,748 - DEBUG - push QProgressBar progressBar
+2025-05-03 10:51:54,748 - DEBUG - pop widget QProgressBar progressBar
+2025-05-03 10:51:54,748 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001D8776000F0>
+2025-05-03 10:51:54,748 - DEBUG - push QHBoxLayout buttonLayout
+2025-05-03 10:51:54,748 - DEBUG - setting property text
+2025-05-03 10:51:54,748 - DEBUG - push QPushButton previewBtn
+2025-05-03 10:51:54,748 - DEBUG - pop widget QPushButton previewBtn
+2025-05-03 10:51:54,748 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001D8776000F0>
+2025-05-03 10:51:54,748 - DEBUG - setting property text
+2025-05-03 10:51:54,748 - DEBUG - push QPushButton generateBtn
+2025-05-03 10:51:54,749 - DEBUG - pop widget QPushButton generateBtn
+2025-05-03 10:51:54,749 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001D8776000F0>
+2025-05-03 10:51:54,749 - DEBUG - setting property text
+2025-05-03 10:51:54,749 - DEBUG - push QPushButton printBtn
+2025-05-03 10:51:54,749 - DEBUG - pop widget QPushButton printBtn
+2025-05-03 10:51:54,749 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001D8776000F0>
+2025-05-03 10:51:54,749 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-05-03 10:51:54,749 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-05-03 10:51:54,749 - DEBUG - pop widget QFrame mainFrame
+2025-05-03 10:51:54,749 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x000001D8775D7F70>
+2025-05-03 10:51:54,749 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-05-03 10:51:54,749 - DEBUG - pop widget QWidget centralwidget
+2025-05-03 10:51:54,749 - DEBUG - new topwidget <ui.controller.MainController object at 0x000001D8775D6F30>
+2025-05-03 10:51:54,749 - DEBUG - push QStatusBar statusbar
+2025-05-03 10:51:54,749 - DEBUG - pop widget QStatusBar statusbar
+2025-05-03 10:51:54,749 - DEBUG - new topwidget <ui.controller.MainController object at 0x000001D8775D6F30>
+2025-05-03 10:51:54,750 - DEBUG - pop widget MainController MainWindow
+2025-05-03 10:51:54,750 - DEBUG - new topwidget None
+2025-05-03 15:09:14,669 - DEBUG - toplevel widget is MainController
+2025-05-03 15:09:14,669 - DEBUG - setting property geometry
+2025-05-03 15:09:14,669 - DEBUG - setting property windowTitle
+2025-05-03 15:09:14,669 - DEBUG - push MainController MainWindow
+2025-05-03 15:09:14,669 - DEBUG - push QWidget centralwidget
+2025-05-03 15:09:14,670 - DEBUG - setting property pyuicMargins
+2025-05-03 15:09:14,670 - DEBUG - push QVBoxLayout verticalLayout
+2025-05-03 15:09:14,670 - DEBUG - push QFrame mainFrame
+2025-05-03 15:09:14,670 - DEBUG - push QVBoxLayout mainLayout
+2025-05-03 15:09:14,671 - DEBUG - setting property text
+2025-05-03 15:09:14,672 - DEBUG - setting property icon
+2025-05-03 15:09:14,675 - DEBUG - push QPushButton uploadBtn
+2025-05-03 15:09:14,675 - DEBUG - pop widget QPushButton uploadBtn
+2025-05-03 15:09:14,675 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000289F325C190>
+2025-05-03 15:09:14,676 - DEBUG - setting property minimumHeight
+2025-05-03 15:09:14,676 - DEBUG - setting property font
+2025-05-03 15:09:14,678 - DEBUG - push QComboBox shuffleCombo
+2025-05-03 15:09:14,678 - DEBUG - pop widget QComboBox shuffleCombo
+2025-05-03 15:09:14,678 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000289F325C190>
+2025-05-03 15:09:14,678 - DEBUG - setting property text
+2025-05-03 15:09:14,678 - DEBUG - push QCheckBox aiCheckBox
+2025-05-03 15:09:14,678 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-05-03 15:09:14,678 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000289F325C190>
+2025-05-03 15:09:14,684 - DEBUG - setting property visible
+2025-05-03 15:09:14,684 - DEBUG - push QLineEdit apiKeyInput
+2025-05-03 15:09:14,684 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-05-03 15:09:14,684 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000289F325C190>
+2025-05-03 15:09:14,684 - DEBUG - setting property text
+2025-05-03 15:09:14,684 - DEBUG - setting property alignment
+2025-05-03 15:09:14,700 - DEBUG - push QLabel previewLabel
+2025-05-03 15:09:14,700 - DEBUG - pop widget QLabel previewLabel
+2025-05-03 15:09:14,700 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000289F325C190>
+2025-05-03 15:09:14,700 - DEBUG - push QProgressBar progressBar
+2025-05-03 15:09:14,701 - DEBUG - pop widget QProgressBar progressBar
+2025-05-03 15:09:14,701 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000289F325C190>
+2025-05-03 15:09:14,701 - DEBUG - push QHBoxLayout buttonLayout
+2025-05-03 15:09:14,701 - DEBUG - setting property text
+2025-05-03 15:09:14,701 - DEBUG - push QPushButton previewBtn
+2025-05-03 15:09:14,701 - DEBUG - pop widget QPushButton previewBtn
+2025-05-03 15:09:14,701 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000289F325C190>
+2025-05-03 15:09:14,701 - DEBUG - setting property text
+2025-05-03 15:09:14,701 - DEBUG - push QPushButton generateBtn
+2025-05-03 15:09:14,701 - DEBUG - pop widget QPushButton generateBtn
+2025-05-03 15:09:14,701 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000289F325C190>
+2025-05-03 15:09:14,701 - DEBUG - setting property text
+2025-05-03 15:09:14,702 - DEBUG - push QPushButton printBtn
+2025-05-03 15:09:14,702 - DEBUG - pop widget QPushButton printBtn
+2025-05-03 15:09:14,702 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000289F325C190>
+2025-05-03 15:09:14,702 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-05-03 15:09:14,702 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-05-03 15:09:14,702 - DEBUG - pop widget QFrame mainFrame
+2025-05-03 15:09:14,702 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x00000289F3237ED0>
+2025-05-03 15:09:14,702 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-05-03 15:09:14,702 - DEBUG - pop widget QWidget centralwidget
+2025-05-03 15:09:14,702 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000289F3236FD0>
+2025-05-03 15:09:14,702 - DEBUG - push QStatusBar statusbar
+2025-05-03 15:09:14,702 - DEBUG - pop widget QStatusBar statusbar
+2025-05-03 15:09:14,702 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000289F3236FD0>
+2025-05-03 15:09:14,702 - DEBUG - pop widget MainController MainWindow
+2025-05-03 15:09:14,702 - DEBUG - new topwidget None
+2025-05-03 15:17:31,047 - DEBUG - toplevel widget is MainController
+2025-05-03 15:17:31,048 - DEBUG - setting property geometry
+2025-05-03 15:17:31,048 - DEBUG - setting property windowTitle
+2025-05-03 15:17:31,048 - DEBUG - push MainController MainWindow
+2025-05-03 15:17:31,048 - DEBUG - push QWidget centralwidget
+2025-05-03 15:17:31,049 - DEBUG - setting property pyuicMargins
+2025-05-03 15:17:31,049 - DEBUG - push QVBoxLayout verticalLayout
+2025-05-03 15:17:31,050 - DEBUG - push QFrame mainFrame
+2025-05-03 15:17:31,050 - DEBUG - push QVBoxLayout mainLayout
+2025-05-03 15:17:31,051 - DEBUG - setting property text
+2025-05-03 15:17:31,051 - DEBUG - setting property icon
+2025-05-03 15:17:31,054 - DEBUG - push QPushButton uploadBtn
+2025-05-03 15:17:31,054 - DEBUG - pop widget QPushButton uploadBtn
+2025-05-03 15:17:31,054 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,055 - DEBUG - setting property minimumHeight
+2025-05-03 15:17:31,055 - DEBUG - setting property font
+2025-05-03 15:17:31,057 - DEBUG - push QComboBox shuffleCombo
+2025-05-03 15:17:31,057 - DEBUG - pop widget QComboBox shuffleCombo
+2025-05-03 15:17:31,057 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,057 - DEBUG - setting property text
+2025-05-03 15:17:31,057 - DEBUG - push QCheckBox aiCheckBox
+2025-05-03 15:17:31,057 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-05-03 15:17:31,057 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,061 - DEBUG - setting property visible
+2025-05-03 15:17:31,061 - DEBUG - push QLineEdit apiKeyInput
+2025-05-03 15:17:31,061 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-05-03 15:17:31,061 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,062 - DEBUG - setting property title
+2025-05-03 15:17:31,062 - DEBUG - push QGroupBox headerFooterGroup
+2025-05-03 15:17:31,062 - DEBUG - push QVBoxLayout headerFooterLayout
+2025-05-03 15:17:31,062 - DEBUG - setting property text
+2025-05-03 15:17:31,062 - DEBUG - push QLabel headerLabel
+2025-05-03 15:17:31,062 - DEBUG - pop widget QLabel headerLabel
+2025-05-03 15:17:31,062 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000221B376DB30>
+2025-05-03 15:17:31,062 - DEBUG - push QHBoxLayout headerLayout
+2025-05-03 15:17:31,063 - DEBUG - setting property placeholderText
+2025-05-03 15:17:31,063 - DEBUG - push QLineEdit headerTextInput
+2025-05-03 15:17:31,063 - DEBUG - pop widget QLineEdit headerTextInput
+2025-05-03 15:17:31,063 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000221B376DB30>
+2025-05-03 15:17:31,063 - DEBUG - setting property text
+2025-05-03 15:17:31,063 - DEBUG - push QPushButton headerImageBtn
+2025-05-03 15:17:31,063 - DEBUG - pop widget QPushButton headerImageBtn
+2025-05-03 15:17:31,063 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000221B376DB30>
+2025-05-03 15:17:31,063 - DEBUG - pop layout QHBoxLayout headerLayout
+2025-05-03 15:17:31,063 - DEBUG - setting property text
+2025-05-03 15:17:31,063 - DEBUG - push QLabel footerLabel
+2025-05-03 15:17:31,063 - DEBUG - pop widget QLabel footerLabel
+2025-05-03 15:17:31,063 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000221B376DB30>
+2025-05-03 15:17:31,064 - DEBUG - setting property placeholderText
+2025-05-03 15:17:31,064 - DEBUG - push QLineEdit footerTextInput
+2025-05-03 15:17:31,064 - DEBUG - pop widget QLineEdit footerTextInput
+2025-05-03 15:17:31,064 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000221B376DB30>
+2025-05-03 15:17:31,064 - DEBUG - setting property text
+2025-05-03 15:17:31,064 - DEBUG - setting property alignment
+2025-05-03 15:17:31,080 - DEBUG - push QLabel selectedImageLabel
+2025-05-03 15:17:31,080 - DEBUG - pop widget QLabel selectedImageLabel
+2025-05-03 15:17:31,080 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000221B376DB30>
+2025-05-03 15:17:31,080 - DEBUG - pop layout QVBoxLayout headerFooterLayout
+2025-05-03 15:17:31,080 - DEBUG - pop widget QGroupBox headerFooterGroup
+2025-05-03 15:17:31,080 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,080 - DEBUG - setting property text
+2025-05-03 15:17:31,080 - DEBUG - setting property alignment
+2025-05-03 15:17:31,080 - DEBUG - push QLabel previewLabel
+2025-05-03 15:17:31,080 - DEBUG - pop widget QLabel previewLabel
+2025-05-03 15:17:31,080 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,081 - DEBUG - push QProgressBar progressBar
+2025-05-03 15:17:31,081 - DEBUG - pop widget QProgressBar progressBar
+2025-05-03 15:17:31,081 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,081 - DEBUG - push QHBoxLayout buttonLayout
+2025-05-03 15:17:31,081 - DEBUG - setting property text
+2025-05-03 15:17:31,081 - DEBUG - push QPushButton previewBtn
+2025-05-03 15:17:31,081 - DEBUG - pop widget QPushButton previewBtn
+2025-05-03 15:17:31,081 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,081 - DEBUG - setting property text
+2025-05-03 15:17:31,081 - DEBUG - push QPushButton generateBtn
+2025-05-03 15:17:31,081 - DEBUG - pop widget QPushButton generateBtn
+2025-05-03 15:17:31,081 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,081 - DEBUG - setting property text
+2025-05-03 15:17:31,082 - DEBUG - push QPushButton printBtn
+2025-05-03 15:17:31,082 - DEBUG - pop widget QPushButton printBtn
+2025-05-03 15:17:31,082 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000221B376C370>
+2025-05-03 15:17:31,082 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-05-03 15:17:31,082 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-05-03 15:17:31,082 - DEBUG - pop widget QFrame mainFrame
+2025-05-03 15:17:31,082 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x00000221B375B2F0>
+2025-05-03 15:17:31,082 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-05-03 15:17:31,082 - DEBUG - pop widget QWidget centralwidget
+2025-05-03 15:17:31,082 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000221B375B1B0>
+2025-05-03 15:17:31,082 - DEBUG - push QStatusBar statusbar
+2025-05-03 15:17:31,082 - DEBUG - pop widget QStatusBar statusbar
+2025-05-03 15:17:31,082 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000221B375B1B0>
+2025-05-03 15:17:31,083 - DEBUG - pop widget MainController MainWindow
+2025-05-03 15:17:31,083 - DEBUG - new topwidget None
+2025-05-03 15:25:26,845 - DEBUG - toplevel widget is MainController
+2025-05-03 15:25:26,846 - DEBUG - setting property geometry
+2025-05-03 15:25:26,846 - DEBUG - setting property windowTitle
+2025-05-03 15:25:26,846 - DEBUG - push MainController MainWindow
+2025-05-03 15:25:26,846 - DEBUG - push QWidget centralwidget
+2025-05-03 15:25:26,847 - DEBUG - setting property pyuicMargins
+2025-05-03 15:25:26,848 - DEBUG - push QVBoxLayout verticalLayout
+2025-05-03 15:25:26,848 - DEBUG - push QFrame mainFrame
+2025-05-03 15:25:26,848 - DEBUG - push QVBoxLayout mainLayout
+2025-05-03 15:25:26,849 - DEBUG - setting property text
+2025-05-03 15:25:26,849 - DEBUG - setting property icon
+2025-05-03 15:25:26,852 - DEBUG - push QPushButton uploadBtn
+2025-05-03 15:25:26,852 - DEBUG - pop widget QPushButton uploadBtn
+2025-05-03 15:25:26,852 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,853 - DEBUG - setting property minimumHeight
+2025-05-03 15:25:26,853 - DEBUG - setting property font
+2025-05-03 15:25:26,855 - DEBUG - push QComboBox shuffleCombo
+2025-05-03 15:25:26,855 - DEBUG - pop widget QComboBox shuffleCombo
+2025-05-03 15:25:26,855 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,855 - DEBUG - setting property text
+2025-05-03 15:25:26,855 - DEBUG - push QCheckBox aiCheckBox
+2025-05-03 15:25:26,856 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-05-03 15:25:26,856 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,863 - DEBUG - setting property visible
+2025-05-03 15:25:26,863 - DEBUG - push QLineEdit apiKeyInput
+2025-05-03 15:25:26,863 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-05-03 15:25:26,863 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,863 - DEBUG - setting property title
+2025-05-03 15:25:26,863 - DEBUG - push QGroupBox headerFooterGroup
+2025-05-03 15:25:26,864 - DEBUG - push QVBoxLayout headerFooterLayout
+2025-05-03 15:25:26,864 - DEBUG - setting property text
+2025-05-03 15:25:26,864 - DEBUG - setting property font
+2025-05-03 15:25:26,864 - DEBUG - push QLabel headerLabel
+2025-05-03 15:25:26,864 - DEBUG - pop widget QLabel headerLabel
+2025-05-03 15:25:26,864 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,864 - DEBUG - push QHBoxLayout headerLayout
+2025-05-03 15:25:26,864 - DEBUG - setting property placeholderText
+2025-05-03 15:25:26,864 - DEBUG - push QLineEdit headerTextInput
+2025-05-03 15:25:26,864 - DEBUG - pop widget QLineEdit headerTextInput
+2025-05-03 15:25:26,864 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,865 - DEBUG - setting property text
+2025-05-03 15:25:26,865 - DEBUG - push QPushButton headerImageBtn
+2025-05-03 15:25:26,865 - DEBUG - pop widget QPushButton headerImageBtn
+2025-05-03 15:25:26,865 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,865 - DEBUG - pop layout QHBoxLayout headerLayout
+2025-05-03 15:25:26,865 - DEBUG - push QHBoxLayout teacherSubjectLayout
+2025-05-03 15:25:26,865 - DEBUG - setting property text
+2025-05-03 15:25:26,865 - DEBUG - push QLabel subjectLabel
+2025-05-03 15:25:26,865 - DEBUG - pop widget QLabel subjectLabel
+2025-05-03 15:25:26,865 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,865 - DEBUG - setting property placeholderText
+2025-05-03 15:25:26,865 - DEBUG - push QLineEdit subjectInput
+2025-05-03 15:25:26,865 - DEBUG - pop widget QLineEdit subjectInput
+2025-05-03 15:25:26,865 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,865 - DEBUG - setting property text
+2025-05-03 15:25:26,866 - DEBUG - push QLabel teacherLabel
+2025-05-03 15:25:26,866 - DEBUG - pop widget QLabel teacherLabel
+2025-05-03 15:25:26,866 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,866 - DEBUG - setting property placeholderText
+2025-05-03 15:25:26,866 - DEBUG - push QLineEdit teacherInput
+2025-05-03 15:25:26,866 - DEBUG - pop widget QLineEdit teacherInput
+2025-05-03 15:25:26,866 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,866 - DEBUG - pop layout QHBoxLayout teacherSubjectLayout
+2025-05-03 15:25:26,866 - DEBUG - push QHBoxLayout classInfoLayout
+2025-05-03 15:25:26,866 - DEBUG - setting property text
+2025-05-03 15:25:26,866 - DEBUG - push QLabel blockLabel
+2025-05-03 15:25:26,866 - DEBUG - pop widget QLabel blockLabel
+2025-05-03 15:25:26,866 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,866 - DEBUG - setting property placeholderText
+2025-05-03 15:25:26,867 - DEBUG - push QLineEdit blockInput
+2025-05-03 15:25:26,867 - DEBUG - pop widget QLineEdit blockInput
+2025-05-03 15:25:26,867 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,867 - DEBUG - setting property text
+2025-05-03 15:25:26,867 - DEBUG - push QLabel evaluationLabel
+2025-05-03 15:25:26,867 - DEBUG - pop widget QLabel evaluationLabel
+2025-05-03 15:25:26,867 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,867 - DEBUG - setting property placeholderText
+2025-05-03 15:25:26,867 - DEBUG - push QLineEdit evaluationInput
+2025-05-03 15:25:26,867 - DEBUG - pop widget QLineEdit evaluationInput
+2025-05-03 15:25:26,867 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,867 - DEBUG - pop layout QHBoxLayout classInfoLayout
+2025-05-03 15:25:26,867 - DEBUG - setting property text
+2025-05-03 15:25:26,867 - DEBUG - setting property font
+2025-05-03 15:25:26,867 - DEBUG - push QLabel footerLabel
+2025-05-03 15:25:26,867 - DEBUG - pop widget QLabel footerLabel
+2025-05-03 15:25:26,868 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,868 - DEBUG - setting property placeholderText
+2025-05-03 15:25:26,868 - DEBUG - push QLineEdit footerTextInput
+2025-05-03 15:25:26,868 - DEBUG - pop widget QLineEdit footerTextInput
+2025-05-03 15:25:26,868 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,868 - DEBUG - setting property text
+2025-05-03 15:25:26,868 - DEBUG - setting property alignment
+2025-05-03 15:25:26,884 - DEBUG - push QLabel selectedImageLabel
+2025-05-03 15:25:26,884 - DEBUG - pop widget QLabel selectedImageLabel
+2025-05-03 15:25:26,884 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000017ADB351B30>
+2025-05-03 15:25:26,884 - DEBUG - pop layout QVBoxLayout headerFooterLayout
+2025-05-03 15:25:26,884 - DEBUG - pop widget QGroupBox headerFooterGroup
+2025-05-03 15:25:26,884 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,885 - DEBUG - setting property text
+2025-05-03 15:25:26,885 - DEBUG - setting property alignment
+2025-05-03 15:25:26,885 - DEBUG - push QLabel previewLabel
+2025-05-03 15:25:26,885 - DEBUG - pop widget QLabel previewLabel
+2025-05-03 15:25:26,885 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,885 - DEBUG - push QProgressBar progressBar
+2025-05-03 15:25:26,885 - DEBUG - pop widget QProgressBar progressBar
+2025-05-03 15:25:26,885 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,885 - DEBUG - push QHBoxLayout buttonLayout
+2025-05-03 15:25:26,885 - DEBUG - setting property text
+2025-05-03 15:25:26,885 - DEBUG - push QPushButton previewBtn
+2025-05-03 15:25:26,886 - DEBUG - pop widget QPushButton previewBtn
+2025-05-03 15:25:26,886 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,886 - DEBUG - setting property text
+2025-05-03 15:25:26,886 - DEBUG - push QPushButton generateBtn
+2025-05-03 15:25:26,886 - DEBUG - pop widget QPushButton generateBtn
+2025-05-03 15:25:26,886 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,886 - DEBUG - setting property text
+2025-05-03 15:25:26,886 - DEBUG - push QPushButton printBtn
+2025-05-03 15:25:26,886 - DEBUG - pop widget QPushButton printBtn
+2025-05-03 15:25:26,886 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x0000017ADB350370>
+2025-05-03 15:25:26,886 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-05-03 15:25:26,886 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-05-03 15:25:26,886 - DEBUG - pop widget QFrame mainFrame
+2025-05-03 15:25:26,886 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x0000017ADB33B2F0>
+2025-05-03 15:25:26,886 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-05-03 15:25:26,886 - DEBUG - pop widget QWidget centralwidget
+2025-05-03 15:25:26,887 - DEBUG - new topwidget <ui.controller.MainController object at 0x0000017ADB33B1B0>
+2025-05-03 15:25:26,887 - DEBUG - push QStatusBar statusbar
+2025-05-03 15:25:26,887 - DEBUG - pop widget QStatusBar statusbar
+2025-05-03 15:25:26,887 - DEBUG - new topwidget <ui.controller.MainController object at 0x0000017ADB33B1B0>
+2025-05-03 15:25:26,887 - DEBUG - pop widget MainController MainWindow
+2025-05-03 15:25:26,887 - DEBUG - new topwidget None
+2025-05-03 15:30:00,479 - DEBUG - toplevel widget is MainController
+2025-05-03 15:30:00,479 - DEBUG - setting property geometry
+2025-05-03 15:30:00,479 - DEBUG - setting property windowTitle
+2025-05-03 15:30:00,479 - DEBUG - push MainController MainWindow
+2025-05-03 15:30:00,480 - DEBUG - push QWidget centralwidget
+2025-05-03 15:30:00,481 - DEBUG - setting property pyuicMargins
+2025-05-03 15:30:00,481 - DEBUG - push QVBoxLayout verticalLayout
+2025-05-03 15:30:00,481 - DEBUG - push QFrame mainFrame
+2025-05-03 15:30:00,482 - DEBUG - push QVBoxLayout mainLayout
+2025-05-03 15:30:00,482 - DEBUG - setting property text
+2025-05-03 15:30:00,482 - DEBUG - setting property icon
+2025-05-03 15:30:00,485 - DEBUG - push QPushButton uploadBtn
+2025-05-03 15:30:00,485 - DEBUG - pop widget QPushButton uploadBtn
+2025-05-03 15:30:00,485 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,486 - DEBUG - setting property minimumHeight
+2025-05-03 15:30:00,486 - DEBUG - setting property font
+2025-05-03 15:30:00,488 - DEBUG - push QComboBox shuffleCombo
+2025-05-03 15:30:00,488 - DEBUG - pop widget QComboBox shuffleCombo
+2025-05-03 15:30:00,488 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,488 - DEBUG - setting property text
+2025-05-03 15:30:00,488 - DEBUG - push QCheckBox aiCheckBox
+2025-05-03 15:30:00,488 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-05-03 15:30:00,488 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,492 - DEBUG - setting property visible
+2025-05-03 15:30:00,492 - DEBUG - push QLineEdit apiKeyInput
+2025-05-03 15:30:00,492 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-05-03 15:30:00,492 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,492 - DEBUG - setting property title
+2025-05-03 15:30:00,493 - DEBUG - push QGroupBox headerFooterGroup
+2025-05-03 15:30:00,493 - DEBUG - push QVBoxLayout headerFooterLayout
+2025-05-03 15:30:00,493 - DEBUG - setting property text
+2025-05-03 15:30:00,493 - DEBUG - setting property font
+2025-05-03 15:30:00,493 - DEBUG - push QLabel headerLabel
+2025-05-03 15:30:00,493 - DEBUG - pop widget QLabel headerLabel
+2025-05-03 15:30:00,493 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,493 - DEBUG - push QHBoxLayout headerLayout
+2025-05-03 15:30:00,493 - DEBUG - setting property placeholderText
+2025-05-03 15:30:00,493 - DEBUG - push QLineEdit headerTextInput
+2025-05-03 15:30:00,493 - DEBUG - pop widget QLineEdit headerTextInput
+2025-05-03 15:30:00,494 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,494 - DEBUG - setting property text
+2025-05-03 15:30:00,494 - DEBUG - push QPushButton headerImageBtn
+2025-05-03 15:30:00,494 - DEBUG - pop widget QPushButton headerImageBtn
+2025-05-03 15:30:00,494 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,494 - DEBUG - setting property text
+2025-05-03 15:30:00,494 - DEBUG - setting property toolTip
+2025-05-03 15:30:00,495 - DEBUG - push QPushButton importLogoBtn
+2025-05-03 15:30:00,495 - DEBUG - pop widget QPushButton importLogoBtn
+2025-05-03 15:30:00,495 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,495 - DEBUG - pop layout QHBoxLayout headerLayout
+2025-05-03 15:30:00,495 - DEBUG - push QHBoxLayout teacherSubjectLayout
+2025-05-03 15:30:00,495 - DEBUG - setting property text
+2025-05-03 15:30:00,495 - DEBUG - push QLabel subjectLabel
+2025-05-03 15:30:00,495 - DEBUG - pop widget QLabel subjectLabel
+2025-05-03 15:30:00,495 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,495 - DEBUG - setting property placeholderText
+2025-05-03 15:30:00,496 - DEBUG - push QLineEdit subjectInput
+2025-05-03 15:30:00,496 - DEBUG - pop widget QLineEdit subjectInput
+2025-05-03 15:30:00,496 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,496 - DEBUG - setting property text
+2025-05-03 15:30:00,496 - DEBUG - push QLabel teacherLabel
+2025-05-03 15:30:00,496 - DEBUG - pop widget QLabel teacherLabel
+2025-05-03 15:30:00,496 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,496 - DEBUG - setting property placeholderText
+2025-05-03 15:30:00,496 - DEBUG - push QLineEdit teacherInput
+2025-05-03 15:30:00,496 - DEBUG - pop widget QLineEdit teacherInput
+2025-05-03 15:30:00,496 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,496 - DEBUG - pop layout QHBoxLayout teacherSubjectLayout
+2025-05-03 15:30:00,496 - DEBUG - push QHBoxLayout classInfoLayout
+2025-05-03 15:30:00,496 - DEBUG - setting property text
+2025-05-03 15:30:00,496 - DEBUG - push QLabel blockLabel
+2025-05-03 15:30:00,496 - DEBUG - pop widget QLabel blockLabel
+2025-05-03 15:30:00,497 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,497 - DEBUG - setting property placeholderText
+2025-05-03 15:30:00,497 - DEBUG - push QLineEdit blockInput
+2025-05-03 15:30:00,497 - DEBUG - pop widget QLineEdit blockInput
+2025-05-03 15:30:00,497 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,497 - DEBUG - setting property text
+2025-05-03 15:30:00,497 - DEBUG - push QLabel evaluationLabel
+2025-05-03 15:30:00,497 - DEBUG - pop widget QLabel evaluationLabel
+2025-05-03 15:30:00,497 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,497 - DEBUG - setting property placeholderText
+2025-05-03 15:30:00,497 - DEBUG - push QLineEdit evaluationInput
+2025-05-03 15:30:00,497 - DEBUG - pop widget QLineEdit evaluationInput
+2025-05-03 15:30:00,497 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,497 - DEBUG - pop layout QHBoxLayout classInfoLayout
+2025-05-03 15:30:00,497 - DEBUG - setting property text
+2025-05-03 15:30:00,497 - DEBUG - setting property font
+2025-05-03 15:30:00,498 - DEBUG - push QLabel footerLabel
+2025-05-03 15:30:00,498 - DEBUG - pop widget QLabel footerLabel
+2025-05-03 15:30:00,498 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,498 - DEBUG - setting property placeholderText
+2025-05-03 15:30:00,498 - DEBUG - push QLineEdit footerTextInput
+2025-05-03 15:30:00,498 - DEBUG - pop widget QLineEdit footerTextInput
+2025-05-03 15:30:00,498 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,498 - DEBUG - setting property text
+2025-05-03 15:30:00,498 - DEBUG - setting property alignment
+2025-05-03 15:30:00,516 - DEBUG - push QLabel selectedImageLabel
+2025-05-03 15:30:00,516 - DEBUG - pop widget QLabel selectedImageLabel
+2025-05-03 15:30:00,516 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000198CB481BD0>
+2025-05-03 15:30:00,516 - DEBUG - pop layout QVBoxLayout headerFooterLayout
+2025-05-03 15:30:00,516 - DEBUG - pop widget QGroupBox headerFooterGroup
+2025-05-03 15:30:00,516 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,516 - DEBUG - setting property text
+2025-05-03 15:30:00,516 - DEBUG - setting property alignment
+2025-05-03 15:30:00,516 - DEBUG - push QLabel previewLabel
+2025-05-03 15:30:00,516 - DEBUG - pop widget QLabel previewLabel
+2025-05-03 15:30:00,516 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,517 - DEBUG - push QProgressBar progressBar
+2025-05-03 15:30:00,517 - DEBUG - pop widget QProgressBar progressBar
+2025-05-03 15:30:00,517 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,517 - DEBUG - push QHBoxLayout buttonLayout
+2025-05-03 15:30:00,517 - DEBUG - setting property text
+2025-05-03 15:30:00,517 - DEBUG - push QPushButton previewBtn
+2025-05-03 15:30:00,517 - DEBUG - pop widget QPushButton previewBtn
+2025-05-03 15:30:00,517 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,517 - DEBUG - setting property text
+2025-05-03 15:30:00,517 - DEBUG - push QPushButton generateBtn
+2025-05-03 15:30:00,517 - DEBUG - pop widget QPushButton generateBtn
+2025-05-03 15:30:00,517 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,517 - DEBUG - setting property text
+2025-05-03 15:30:00,518 - DEBUG - push QPushButton printBtn
+2025-05-03 15:30:00,518 - DEBUG - pop widget QPushButton printBtn
+2025-05-03 15:30:00,518 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000198CB480410>
+2025-05-03 15:30:00,518 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-05-03 15:30:00,518 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-05-03 15:30:00,518 - DEBUG - pop widget QFrame mainFrame
+2025-05-03 15:30:00,518 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x00000198CB46B390>
+2025-05-03 15:30:00,518 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-05-03 15:30:00,518 - DEBUG - pop widget QWidget centralwidget
+2025-05-03 15:30:00,518 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000198CB46B250>
+2025-05-03 15:30:00,518 - DEBUG - push QStatusBar statusbar
+2025-05-03 15:30:00,518 - DEBUG - pop widget QStatusBar statusbar
+2025-05-03 15:30:00,518 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000198CB46B250>
+2025-05-03 15:30:00,518 - DEBUG - pop widget MainController MainWindow
+2025-05-03 15:30:00,518 - DEBUG - new topwidget None
+2025-05-03 16:13:03,257 - DEBUG - toplevel widget is MainController
+2025-05-03 16:13:03,258 - DEBUG - setting property geometry
+2025-05-03 16:13:03,258 - DEBUG - setting property windowTitle
+2025-05-03 16:13:03,260 - DEBUG - push MainController MainWindow
+2025-05-03 16:13:03,261 - DEBUG - push QWidget centralwidget
+2025-05-03 16:13:03,265 - DEBUG - setting property pyuicMargins
+2025-05-03 16:13:03,265 - DEBUG - push QVBoxLayout verticalLayout
+2025-05-03 16:13:03,267 - DEBUG - push QFrame mainFrame
+2025-05-03 16:13:03,267 - DEBUG - push QVBoxLayout mainLayout
+2025-05-03 16:13:03,270 - DEBUG - setting property text
+2025-05-03 16:13:03,275 - DEBUG - setting property icon
+2025-05-03 16:13:03,294 - DEBUG - push QPushButton uploadBtn
+2025-05-03 16:13:03,294 - DEBUG - pop widget QPushButton uploadBtn
+2025-05-03 16:13:03,294 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,300 - DEBUG - setting property minimumHeight
+2025-05-03 16:13:03,301 - DEBUG - setting property font
+2025-05-03 16:13:03,315 - DEBUG - push QComboBox shuffleCombo
+2025-05-03 16:13:03,318 - DEBUG - pop widget QComboBox shuffleCombo
+2025-05-03 16:13:03,318 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,318 - DEBUG - setting property text
+2025-05-03 16:13:03,319 - DEBUG - push QCheckBox aiCheckBox
+2025-05-03 16:13:03,319 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-05-03 16:13:03,319 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,338 - DEBUG - setting property visible
+2025-05-03 16:13:03,338 - DEBUG - push QLineEdit apiKeyInput
+2025-05-03 16:13:03,338 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-05-03 16:13:03,338 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,340 - DEBUG - setting property title
+2025-05-03 16:13:03,341 - DEBUG - push QGroupBox headerFooterGroup
+2025-05-03 16:13:03,341 - DEBUG - push QVBoxLayout headerFooterLayout
+2025-05-03 16:13:03,342 - DEBUG - setting property text
+2025-05-03 16:13:03,342 - DEBUG - setting property font
+2025-05-03 16:13:03,343 - DEBUG - push QLabel headerLabel
+2025-05-03 16:13:03,343 - DEBUG - pop widget QLabel headerLabel
+2025-05-03 16:13:03,343 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,343 - DEBUG - push QHBoxLayout importHeaderLayout
+2025-05-03 16:13:03,343 - DEBUG - setting property text
+2025-05-03 16:13:03,343 - DEBUG - setting property toolTip
+2025-05-03 16:13:03,343 - DEBUG - push QPushButton importHeaderBtn
+2025-05-03 16:13:03,343 - DEBUG - pop widget QPushButton importHeaderBtn
+2025-05-03 16:13:03,343 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,343 - DEBUG - pop layout QHBoxLayout importHeaderLayout
+2025-05-03 16:13:03,345 - DEBUG - push QHBoxLayout headerLayout
+2025-05-03 16:13:03,345 - DEBUG - setting property placeholderText
+2025-05-03 16:13:03,345 - DEBUG - push QLineEdit headerTextInput
+2025-05-03 16:13:03,345 - DEBUG - pop widget QLineEdit headerTextInput
+2025-05-03 16:13:03,345 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,345 - DEBUG - setting property text
+2025-05-03 16:13:03,345 - DEBUG - push QPushButton headerImageBtn
+2025-05-03 16:13:03,345 - DEBUG - pop widget QPushButton headerImageBtn
+2025-05-03 16:13:03,345 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,345 - DEBUG - setting property text
+2025-05-03 16:13:03,345 - DEBUG - setting property toolTip
+2025-05-03 16:13:03,345 - DEBUG - push QPushButton importLogoBtn
+2025-05-03 16:13:03,345 - DEBUG - pop widget QPushButton importLogoBtn
+2025-05-03 16:13:03,345 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,345 - DEBUG - pop layout QHBoxLayout headerLayout
+2025-05-03 16:13:03,346 - DEBUG - push QHBoxLayout teacherSubjectLayout
+2025-05-03 16:13:03,346 - DEBUG - setting property text
+2025-05-03 16:13:03,346 - DEBUG - push QLabel subjectLabel
+2025-05-03 16:13:03,346 - DEBUG - pop widget QLabel subjectLabel
+2025-05-03 16:13:03,346 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,346 - DEBUG - setting property placeholderText
+2025-05-03 16:13:03,346 - DEBUG - push QLineEdit subjectInput
+2025-05-03 16:13:03,346 - DEBUG - pop widget QLineEdit subjectInput
+2025-05-03 16:13:03,346 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,346 - DEBUG - setting property text
+2025-05-03 16:13:03,346 - DEBUG - push QLabel teacherLabel
+2025-05-03 16:13:03,346 - DEBUG - pop widget QLabel teacherLabel
+2025-05-03 16:13:03,346 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,346 - DEBUG - setting property placeholderText
+2025-05-03 16:13:03,347 - DEBUG - push QLineEdit teacherInput
+2025-05-03 16:13:03,347 - DEBUG - pop widget QLineEdit teacherInput
+2025-05-03 16:13:03,347 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,347 - DEBUG - pop layout QHBoxLayout teacherSubjectLayout
+2025-05-03 16:13:03,347 - DEBUG - push QHBoxLayout classInfoLayout
+2025-05-03 16:13:03,347 - DEBUG - setting property text
+2025-05-03 16:13:03,347 - DEBUG - push QLabel blockLabel
+2025-05-03 16:13:03,347 - DEBUG - pop widget QLabel blockLabel
+2025-05-03 16:13:03,347 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,347 - DEBUG - setting property placeholderText
+2025-05-03 16:13:03,347 - DEBUG - push QLineEdit blockInput
+2025-05-03 16:13:03,347 - DEBUG - pop widget QLineEdit blockInput
+2025-05-03 16:13:03,347 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,347 - DEBUG - setting property text
+2025-05-03 16:13:03,347 - DEBUG - push QLabel evaluationLabel
+2025-05-03 16:13:03,348 - DEBUG - pop widget QLabel evaluationLabel
+2025-05-03 16:13:03,348 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,348 - DEBUG - setting property placeholderText
+2025-05-03 16:13:03,348 - DEBUG - push QLineEdit evaluationInput
+2025-05-03 16:13:03,348 - DEBUG - pop widget QLineEdit evaluationInput
+2025-05-03 16:13:03,348 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,348 - DEBUG - pop layout QHBoxLayout classInfoLayout
+2025-05-03 16:13:03,348 - DEBUG - setting property text
+2025-05-03 16:13:03,348 - DEBUG - setting property font
+2025-05-03 16:13:03,348 - DEBUG - push QLabel footerLabel
+2025-05-03 16:13:03,348 - DEBUG - pop widget QLabel footerLabel
+2025-05-03 16:13:03,348 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,349 - DEBUG - setting property placeholderText
+2025-05-03 16:13:03,349 - DEBUG - push QLineEdit footerTextInput
+2025-05-03 16:13:03,349 - DEBUG - pop widget QLineEdit footerTextInput
+2025-05-03 16:13:03,349 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,349 - DEBUG - setting property text
+2025-05-03 16:13:03,349 - DEBUG - setting property alignment
+2025-05-03 16:13:03,368 - DEBUG - push QLabel selectedImageLabel
+2025-05-03 16:13:03,368 - DEBUG - pop widget QLabel selectedImageLabel
+2025-05-03 16:13:03,368 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x000001EBF05A1C70>
+2025-05-03 16:13:03,368 - DEBUG - pop layout QVBoxLayout headerFooterLayout
+2025-05-03 16:13:03,368 - DEBUG - pop widget QGroupBox headerFooterGroup
+2025-05-03 16:13:03,368 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,368 - DEBUG - setting property text
+2025-05-03 16:13:03,368 - DEBUG - setting property alignment
+2025-05-03 16:13:03,368 - DEBUG - push QLabel previewLabel
+2025-05-03 16:13:03,368 - DEBUG - pop widget QLabel previewLabel
+2025-05-03 16:13:03,368 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,369 - DEBUG - push QProgressBar progressBar
+2025-05-03 16:13:03,370 - DEBUG - pop widget QProgressBar progressBar
+2025-05-03 16:13:03,370 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,370 - DEBUG - push QHBoxLayout buttonLayout
+2025-05-03 16:13:03,370 - DEBUG - setting property text
+2025-05-03 16:13:03,370 - DEBUG - push QPushButton previewBtn
+2025-05-03 16:13:03,370 - DEBUG - pop widget QPushButton previewBtn
+2025-05-03 16:13:03,370 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,370 - DEBUG - setting property text
+2025-05-03 16:13:03,370 - DEBUG - push QPushButton generateBtn
+2025-05-03 16:13:03,370 - DEBUG - pop widget QPushButton generateBtn
+2025-05-03 16:13:03,370 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,370 - DEBUG - setting property text
+2025-05-03 16:13:03,371 - DEBUG - push QPushButton printBtn
+2025-05-03 16:13:03,371 - DEBUG - pop widget QPushButton printBtn
+2025-05-03 16:13:03,371 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x000001EBF05A04B0>
+2025-05-03 16:13:03,371 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-05-03 16:13:03,371 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-05-03 16:13:03,371 - DEBUG - pop widget QFrame mainFrame
+2025-05-03 16:13:03,371 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x000001EBF058F430>
+2025-05-03 16:13:03,371 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-05-03 16:13:03,371 - DEBUG - pop widget QWidget centralwidget
+2025-05-03 16:13:03,371 - DEBUG - new topwidget <ui.controller.MainController object at 0x000001EBF058F2F0>
+2025-05-03 16:13:03,374 - DEBUG - push QStatusBar statusbar
+2025-05-03 16:13:03,374 - DEBUG - pop widget QStatusBar statusbar
+2025-05-03 16:13:03,374 - DEBUG - new topwidget <ui.controller.MainController object at 0x000001EBF058F2F0>
+2025-05-03 16:13:03,374 - DEBUG - pop widget MainController MainWindow
+2025-05-03 16:13:03,374 - DEBUG - new topwidget None
+2025-05-03 17:00:56,305 - DEBUG - toplevel widget is MainController
+2025-05-03 17:00:56,305 - DEBUG - setting property geometry
+2025-05-03 17:00:56,305 - DEBUG - setting property windowTitle
+2025-05-03 17:00:56,305 - DEBUG - push MainController MainWindow
+2025-05-03 17:00:56,306 - DEBUG - push QWidget centralwidget
+2025-05-03 17:00:56,307 - DEBUG - setting property pyuicMargins
+2025-05-03 17:00:56,307 - DEBUG - push QVBoxLayout verticalLayout
+2025-05-03 17:00:56,308 - DEBUG - push QFrame mainFrame
+2025-05-03 17:00:56,308 - DEBUG - push QVBoxLayout mainLayout
+2025-05-03 17:00:56,308 - DEBUG - setting property text
+2025-05-03 17:00:56,308 - DEBUG - setting property icon
+2025-05-03 17:00:56,311 - DEBUG - push QPushButton uploadBtn
+2025-05-03 17:00:56,311 - DEBUG - pop widget QPushButton uploadBtn
+2025-05-03 17:00:56,312 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,312 - DEBUG - setting property minimumHeight
+2025-05-03 17:00:56,312 - DEBUG - setting property font
+2025-05-03 17:00:56,314 - DEBUG - push QComboBox shuffleCombo
+2025-05-03 17:00:56,314 - DEBUG - pop widget QComboBox shuffleCombo
+2025-05-03 17:00:56,314 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,315 - DEBUG - setting property text
+2025-05-03 17:00:56,315 - DEBUG - push QCheckBox aiCheckBox
+2025-05-03 17:00:56,315 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-05-03 17:00:56,315 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,318 - DEBUG - setting property visible
+2025-05-03 17:00:56,319 - DEBUG - push QLineEdit apiKeyInput
+2025-05-03 17:00:56,319 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-05-03 17:00:56,319 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,319 - DEBUG - setting property title
+2025-05-03 17:00:56,319 - DEBUG - push QGroupBox headerFooterGroup
+2025-05-03 17:00:56,319 - DEBUG - push QVBoxLayout headerFooterLayout
+2025-05-03 17:00:56,319 - DEBUG - setting property text
+2025-05-03 17:00:56,319 - DEBUG - setting property font
+2025-05-03 17:00:56,320 - DEBUG - push QLabel headerLabel
+2025-05-03 17:00:56,320 - DEBUG - pop widget QLabel headerLabel
+2025-05-03 17:00:56,320 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,320 - DEBUG - push QHBoxLayout importHeaderLayout
+2025-05-03 17:00:56,320 - DEBUG - setting property text
+2025-05-03 17:00:56,320 - DEBUG - setting property toolTip
+2025-05-03 17:00:56,320 - DEBUG - push QPushButton importHeaderBtn
+2025-05-03 17:00:56,320 - DEBUG - pop widget QPushButton importHeaderBtn
+2025-05-03 17:00:56,320 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,320 - DEBUG - pop layout QHBoxLayout importHeaderLayout
+2025-05-03 17:00:56,320 - DEBUG - push QHBoxLayout headerLayout
+2025-05-03 17:00:56,320 - DEBUG - setting property placeholderText
+2025-05-03 17:00:56,320 - DEBUG - push QLineEdit headerTextInput
+2025-05-03 17:00:56,321 - DEBUG - pop widget QLineEdit headerTextInput
+2025-05-03 17:00:56,321 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,321 - DEBUG - setting property text
+2025-05-03 17:00:56,321 - DEBUG - push QPushButton headerImageBtn
+2025-05-03 17:00:56,321 - DEBUG - pop widget QPushButton headerImageBtn
+2025-05-03 17:00:56,321 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,321 - DEBUG - setting property text
+2025-05-03 17:00:56,321 - DEBUG - setting property toolTip
+2025-05-03 17:00:56,321 - DEBUG - push QPushButton importLogoBtn
+2025-05-03 17:00:56,321 - DEBUG - pop widget QPushButton importLogoBtn
+2025-05-03 17:00:56,321 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,321 - DEBUG - pop layout QHBoxLayout headerLayout
+2025-05-03 17:00:56,321 - DEBUG - push QHBoxLayout teacherSubjectLayout
+2025-05-03 17:00:56,321 - DEBUG - setting property text
+2025-05-03 17:00:56,321 - DEBUG - push QLabel subjectLabel
+2025-05-03 17:00:56,321 - DEBUG - pop widget QLabel subjectLabel
+2025-05-03 17:00:56,322 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,322 - DEBUG - setting property placeholderText
+2025-05-03 17:00:56,322 - DEBUG - push QLineEdit subjectInput
+2025-05-03 17:00:56,322 - DEBUG - pop widget QLineEdit subjectInput
+2025-05-03 17:00:56,322 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,322 - DEBUG - setting property text
+2025-05-03 17:00:56,322 - DEBUG - push QLabel teacherLabel
+2025-05-03 17:00:56,322 - DEBUG - pop widget QLabel teacherLabel
+2025-05-03 17:00:56,322 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,322 - DEBUG - setting property placeholderText
+2025-05-03 17:00:56,322 - DEBUG - push QLineEdit teacherInput
+2025-05-03 17:00:56,322 - DEBUG - pop widget QLineEdit teacherInput
+2025-05-03 17:00:56,322 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,322 - DEBUG - pop layout QHBoxLayout teacherSubjectLayout
+2025-05-03 17:00:56,322 - DEBUG - push QHBoxLayout classInfoLayout
+2025-05-03 17:00:56,323 - DEBUG - setting property text
+2025-05-03 17:00:56,323 - DEBUG - push QLabel blockLabel
+2025-05-03 17:00:56,323 - DEBUG - pop widget QLabel blockLabel
+2025-05-03 17:00:56,323 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,323 - DEBUG - setting property placeholderText
+2025-05-03 17:00:56,323 - DEBUG - push QLineEdit blockInput
+2025-05-03 17:00:56,323 - DEBUG - pop widget QLineEdit blockInput
+2025-05-03 17:00:56,323 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,323 - DEBUG - setting property text
+2025-05-03 17:00:56,323 - DEBUG - push QLabel evaluationLabel
+2025-05-03 17:00:56,323 - DEBUG - pop widget QLabel evaluationLabel
+2025-05-03 17:00:56,323 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,323 - DEBUG - setting property placeholderText
+2025-05-03 17:00:56,323 - DEBUG - push QLineEdit evaluationInput
+2025-05-03 17:00:56,323 - DEBUG - pop widget QLineEdit evaluationInput
+2025-05-03 17:00:56,323 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,324 - DEBUG - pop layout QHBoxLayout classInfoLayout
+2025-05-03 17:00:56,324 - DEBUG - setting property text
+2025-05-03 17:00:56,324 - DEBUG - setting property font
+2025-05-03 17:00:56,324 - DEBUG - push QLabel footerLabel
+2025-05-03 17:00:56,324 - DEBUG - pop widget QLabel footerLabel
+2025-05-03 17:00:56,324 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,324 - DEBUG - setting property placeholderText
+2025-05-03 17:00:56,324 - DEBUG - push QLineEdit footerTextInput
+2025-05-03 17:00:56,324 - DEBUG - pop widget QLineEdit footerTextInput
+2025-05-03 17:00:56,324 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,324 - DEBUG - setting property text
+2025-05-03 17:00:56,324 - DEBUG - setting property alignment
+2025-05-03 17:00:56,340 - DEBUG - push QLabel selectedImageLabel
+2025-05-03 17:00:56,340 - DEBUG - pop widget QLabel selectedImageLabel
+2025-05-03 17:00:56,340 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x0000015984981C70>
+2025-05-03 17:00:56,340 - DEBUG - pop layout QVBoxLayout headerFooterLayout
+2025-05-03 17:00:56,341 - DEBUG - pop widget QGroupBox headerFooterGroup
+2025-05-03 17:00:56,341 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,341 - DEBUG - setting property text
+2025-05-03 17:00:56,341 - DEBUG - setting property alignment
+2025-05-03 17:00:56,341 - DEBUG - push QLabel previewLabel
+2025-05-03 17:00:56,341 - DEBUG - pop widget QLabel previewLabel
+2025-05-03 17:00:56,341 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,341 - DEBUG - push QProgressBar progressBar
+2025-05-03 17:00:56,341 - DEBUG - pop widget QProgressBar progressBar
+2025-05-03 17:00:56,341 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,341 - DEBUG - push QHBoxLayout buttonLayout
+2025-05-03 17:00:56,342 - DEBUG - setting property text
+2025-05-03 17:00:56,342 - DEBUG - push QPushButton previewBtn
+2025-05-03 17:00:56,342 - DEBUG - pop widget QPushButton previewBtn
+2025-05-03 17:00:56,342 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,342 - DEBUG - setting property text
+2025-05-03 17:00:56,342 - DEBUG - push QPushButton generateBtn
+2025-05-03 17:00:56,342 - DEBUG - pop widget QPushButton generateBtn
+2025-05-03 17:00:56,342 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,342 - DEBUG - setting property text
+2025-05-03 17:00:56,342 - DEBUG - push QPushButton printBtn
+2025-05-03 17:00:56,342 - DEBUG - pop widget QPushButton printBtn
+2025-05-03 17:00:56,342 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000159849804B0>
+2025-05-03 17:00:56,342 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-05-03 17:00:56,343 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-05-03 17:00:56,343 - DEBUG - pop widget QFrame mainFrame
+2025-05-03 17:00:56,343 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x0000015984967430>
+2025-05-03 17:00:56,343 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-05-03 17:00:56,343 - DEBUG - pop widget QWidget centralwidget
+2025-05-03 17:00:56,343 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000159849672F0>
+2025-05-03 17:00:56,343 - DEBUG - push QStatusBar statusbar
+2025-05-03 17:00:56,343 - DEBUG - pop widget QStatusBar statusbar
+2025-05-03 17:00:56,343 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000159849672F0>
+2025-05-03 17:00:56,343 - DEBUG - pop widget MainController MainWindow
+2025-05-03 17:00:56,343 - DEBUG - new topwidget None
+2025-05-03 17:08:13,505 - DEBUG - toplevel widget is MainController
+2025-05-03 17:08:13,505 - DEBUG - setting property geometry
+2025-05-03 17:08:13,505 - DEBUG - setting property windowTitle
+2025-05-03 17:08:13,505 - DEBUG - push MainController MainWindow
+2025-05-03 17:08:13,505 - DEBUG - push QWidget centralwidget
+2025-05-03 17:08:13,507 - DEBUG - setting property pyuicMargins
+2025-05-03 17:08:13,507 - DEBUG - push QVBoxLayout verticalLayout
+2025-05-03 17:08:13,507 - DEBUG - push QFrame mainFrame
+2025-05-03 17:08:13,508 - DEBUG - push QVBoxLayout mainLayout
+2025-05-03 17:08:13,508 - DEBUG - setting property text
+2025-05-03 17:08:13,508 - DEBUG - setting property icon
+2025-05-03 17:08:13,511 - DEBUG - push QPushButton uploadBtn
+2025-05-03 17:08:13,511 - DEBUG - pop widget QPushButton uploadBtn
+2025-05-03 17:08:13,511 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,512 - DEBUG - setting property minimumHeight
+2025-05-03 17:08:13,512 - DEBUG - setting property font
+2025-05-03 17:08:13,514 - DEBUG - push QComboBox shuffleCombo
+2025-05-03 17:08:13,514 - DEBUG - pop widget QComboBox shuffleCombo
+2025-05-03 17:08:13,514 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,514 - DEBUG - setting property text
+2025-05-03 17:08:13,514 - DEBUG - push QCheckBox aiCheckBox
+2025-05-03 17:08:13,514 - DEBUG - pop widget QCheckBox aiCheckBox
+2025-05-03 17:08:13,514 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,518 - DEBUG - setting property visible
+2025-05-03 17:08:13,518 - DEBUG - push QLineEdit apiKeyInput
+2025-05-03 17:08:13,518 - DEBUG - pop widget QLineEdit apiKeyInput
+2025-05-03 17:08:13,518 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,518 - DEBUG - setting property title
+2025-05-03 17:08:13,518 - DEBUG - push QGroupBox headerFooterGroup
+2025-05-03 17:08:13,519 - DEBUG - push QVBoxLayout headerFooterLayout
+2025-05-03 17:08:13,519 - DEBUG - setting property text
+2025-05-03 17:08:13,519 - DEBUG - setting property font
+2025-05-03 17:08:13,519 - DEBUG - push QLabel headerLabel
+2025-05-03 17:08:13,519 - DEBUG - pop widget QLabel headerLabel
+2025-05-03 17:08:13,519 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,519 - DEBUG - push QHBoxLayout importHeaderLayout
+2025-05-03 17:08:13,519 - DEBUG - setting property text
+2025-05-03 17:08:13,519 - DEBUG - setting property toolTip
+2025-05-03 17:08:13,519 - DEBUG - push QPushButton importHeaderBtn
+2025-05-03 17:08:13,519 - DEBUG - pop widget QPushButton importHeaderBtn
+2025-05-03 17:08:13,519 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,520 - DEBUG - pop layout QHBoxLayout importHeaderLayout
+2025-05-03 17:08:13,520 - DEBUG - push QHBoxLayout headerLayout
+2025-05-03 17:08:13,520 - DEBUG - setting property placeholderText
+2025-05-03 17:08:13,520 - DEBUG - push QLineEdit headerTextInput
+2025-05-03 17:08:13,520 - DEBUG - pop widget QLineEdit headerTextInput
+2025-05-03 17:08:13,520 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,520 - DEBUG - setting property text
+2025-05-03 17:08:13,520 - DEBUG - push QPushButton headerImageBtn
+2025-05-03 17:08:13,520 - DEBUG - pop widget QPushButton headerImageBtn
+2025-05-03 17:08:13,520 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,520 - DEBUG - setting property text
+2025-05-03 17:08:13,520 - DEBUG - setting property toolTip
+2025-05-03 17:08:13,520 - DEBUG - push QPushButton importLogoBtn
+2025-05-03 17:08:13,520 - DEBUG - pop widget QPushButton importLogoBtn
+2025-05-03 17:08:13,520 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,521 - DEBUG - pop layout QHBoxLayout headerLayout
+2025-05-03 17:08:13,521 - DEBUG - push QHBoxLayout teacherSubjectLayout
+2025-05-03 17:08:13,521 - DEBUG - setting property text
+2025-05-03 17:08:13,521 - DEBUG - push QLabel subjectLabel
+2025-05-03 17:08:13,521 - DEBUG - pop widget QLabel subjectLabel
+2025-05-03 17:08:13,521 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,521 - DEBUG - setting property placeholderText
+2025-05-03 17:08:13,521 - DEBUG - push QLineEdit subjectInput
+2025-05-03 17:08:13,521 - DEBUG - pop widget QLineEdit subjectInput
+2025-05-03 17:08:13,521 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,521 - DEBUG - setting property text
+2025-05-03 17:08:13,521 - DEBUG - push QLabel teacherLabel
+2025-05-03 17:08:13,521 - DEBUG - pop widget QLabel teacherLabel
+2025-05-03 17:08:13,521 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,522 - DEBUG - setting property placeholderText
+2025-05-03 17:08:13,522 - DEBUG - push QLineEdit teacherInput
+2025-05-03 17:08:13,522 - DEBUG - pop widget QLineEdit teacherInput
+2025-05-03 17:08:13,522 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,522 - DEBUG - pop layout QHBoxLayout teacherSubjectLayout
+2025-05-03 17:08:13,522 - DEBUG - push QHBoxLayout classInfoLayout
+2025-05-03 17:08:13,522 - DEBUG - setting property text
+2025-05-03 17:08:13,522 - DEBUG - push QLabel blockLabel
+2025-05-03 17:08:13,522 - DEBUG - pop widget QLabel blockLabel
+2025-05-03 17:08:13,522 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,522 - DEBUG - setting property placeholderText
+2025-05-03 17:08:13,522 - DEBUG - push QLineEdit blockInput
+2025-05-03 17:08:13,522 - DEBUG - pop widget QLineEdit blockInput
+2025-05-03 17:08:13,522 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,522 - DEBUG - setting property text
+2025-05-03 17:08:13,523 - DEBUG - push QLabel evaluationLabel
+2025-05-03 17:08:13,523 - DEBUG - pop widget QLabel evaluationLabel
+2025-05-03 17:08:13,523 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,523 - DEBUG - setting property placeholderText
+2025-05-03 17:08:13,523 - DEBUG - push QLineEdit evaluationInput
+2025-05-03 17:08:13,523 - DEBUG - pop widget QLineEdit evaluationInput
+2025-05-03 17:08:13,523 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,523 - DEBUG - pop layout QHBoxLayout classInfoLayout
+2025-05-03 17:08:13,523 - DEBUG - setting property text
+2025-05-03 17:08:13,523 - DEBUG - setting property font
+2025-05-03 17:08:13,523 - DEBUG - push QLabel footerLabel
+2025-05-03 17:08:13,523 - DEBUG - pop widget QLabel footerLabel
+2025-05-03 17:08:13,523 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,523 - DEBUG - setting property placeholderText
+2025-05-03 17:08:13,523 - DEBUG - push QLineEdit footerTextInput
+2025-05-03 17:08:13,524 - DEBUG - pop widget QLineEdit footerTextInput
+2025-05-03 17:08:13,524 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,524 - DEBUG - setting property text
+2025-05-03 17:08:13,524 - DEBUG - setting property alignment
+2025-05-03 17:08:13,541 - DEBUG - push QLabel selectedImageLabel
+2025-05-03 17:08:13,541 - DEBUG - pop widget QLabel selectedImageLabel
+2025-05-03 17:08:13,541 - DEBUG - new topwidget <PyQt6.QtWidgets.QGroupBox object at 0x00000172F4925C70>
+2025-05-03 17:08:13,542 - DEBUG - pop layout QVBoxLayout headerFooterLayout
+2025-05-03 17:08:13,542 - DEBUG - pop widget QGroupBox headerFooterGroup
+2025-05-03 17:08:13,542 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,542 - DEBUG - setting property text
+2025-05-03 17:08:13,542 - DEBUG - setting property alignment
+2025-05-03 17:08:13,542 - DEBUG - push QLabel previewLabel
+2025-05-03 17:08:13,542 - DEBUG - pop widget QLabel previewLabel
+2025-05-03 17:08:13,542 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,542 - DEBUG - push QProgressBar progressBar
+2025-05-03 17:08:13,543 - DEBUG - pop widget QProgressBar progressBar
+2025-05-03 17:08:13,543 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,543 - DEBUG - push QHBoxLayout buttonLayout
+2025-05-03 17:08:13,543 - DEBUG - setting property text
+2025-05-03 17:08:13,543 - DEBUG - push QPushButton previewBtn
+2025-05-03 17:08:13,543 - DEBUG - pop widget QPushButton previewBtn
+2025-05-03 17:08:13,543 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,543 - DEBUG - setting property text
+2025-05-03 17:08:13,543 - DEBUG - push QPushButton generateBtn
+2025-05-03 17:08:13,543 - DEBUG - pop widget QPushButton generateBtn
+2025-05-03 17:08:13,543 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,543 - DEBUG - setting property text
+2025-05-03 17:08:13,543 - DEBUG - push QPushButton printBtn
+2025-05-03 17:08:13,543 - DEBUG - pop widget QPushButton printBtn
+2025-05-03 17:08:13,544 - DEBUG - new topwidget <PyQt6.QtWidgets.QFrame object at 0x00000172F49244B0>
+2025-05-03 17:08:13,544 - DEBUG - pop layout QHBoxLayout buttonLayout
+2025-05-03 17:08:13,544 - DEBUG - pop layout QVBoxLayout mainLayout
+2025-05-03 17:08:13,544 - DEBUG - pop widget QFrame mainFrame
+2025-05-03 17:08:13,544 - DEBUG - new topwidget <PyQt6.QtWidgets.QWidget object at 0x00000172F4907430>
+2025-05-03 17:08:13,544 - DEBUG - pop layout QVBoxLayout verticalLayout
+2025-05-03 17:08:13,544 - DEBUG - pop widget QWidget centralwidget
+2025-05-03 17:08:13,544 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000172F49072F0>
+2025-05-03 17:08:13,544 - DEBUG - push QStatusBar statusbar
+2025-05-03 17:08:13,544 - DEBUG - pop widget QStatusBar statusbar
+2025-05-03 17:08:13,544 - DEBUG - new topwidget <ui.controller.MainController object at 0x00000172F49072F0>
+2025-05-03 17:08:13,544 - DEBUG - pop widget MainController MainWindow
+2025-05-03 17:08:13,544 - DEBUG - new topwidget None
+2025-05-03 17:34:43,486 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-03 18:02:19,893 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-03 18:36:14,388 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-03 20:41:05,603 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-03 21:28:45,954 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-03 22:13:32,585 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-03 22:17:04,561 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-03 23:55:56,223 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 00:07:55,835 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 00:12:37,782 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 00:22:08,201 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 00:28:23,777 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 00:30:59,470 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 00:46:50,716 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 00:57:48,161 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 01:21:13,120 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 01:31:20,472 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 01:38:42,823 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-04 01:39:12,424 - core.reader - INFO - Encontradas 2 imagens na página
+2025-05-05 01:28:01,116 - core.reader - INFO - Encontradas 2 imagens na página

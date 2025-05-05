@@ -1,0 +1,11 @@
+PyQt6==6.6.1
+PyMuPDF==1.23.8
+fpdf2==2.7.6
+python-docx==0.8.11
+qrcode==7.4.2
+Pillow==10.1.0
+requests==2.31.0
+python-magic==0.4.27
+python-magic-bin==0.4.14 ; sys_platform == 'win32'
+pywin32 ; sys_platform == 'win32'
+pycups ; sys_platform == 'linux'

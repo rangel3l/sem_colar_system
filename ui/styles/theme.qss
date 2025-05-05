@@ -1,0 +1,112 @@
+/* Main Window */
+QMainWindow {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Frames */
+QFrame {
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    min-height: 35px;
+}
+
+QPushButton:hover {
+    background-color: #1565c0;
+}
+
+QPushButton:pressed {
+    background-color: #0a3880;
+}
+
+/* ComboBox */
+QComboBox {
+    background-color: #2d2d2d;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    padding: 8px;
+    min-height: 35px;
+    color: white;
+    font-size: 14px;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 30px;
+}
+
+/* Note: The down-arrow image will be set dynamically in code */
+QComboBox::down-arrow {
+    width: 12px;
+    height: 12px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #2d2d2d;
+    border: 1px solid #555555;
+    color: white;
+    selection-background-color: #0d47a1;
+    selection-color: white;
+    padding: 4px;
+}
+
+/* LineEdit */
+QLineEdit {
+    background-color: #2d2d2d;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+/* CheckBox */
+QCheckBox {
+    color: white;
+    spacing: 8px;
+    font-size: 14px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    background-color: #2d2d2d;
+    border: 1px solid #555555;
+    border-radius: 3px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #0d47a1;
+    border: 1px solid #0d47a1;
+}
+
+/* ProgressBar */
+QProgressBar {
+    border: none;
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    height: 10px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #0d47a1;
+    border-radius: 5px;
+}
+
+/* Labels */
+QLabel {
+    color: white;
+    font-size: 14px;
+}
