@@ -221,8 +221,11 @@ class PDFHeaderViewer(QWidget):
                     # Pega a página
                     page = doc[page_num]
                     
-                    # Renderiza a página com alta resolução (300 DPI)
-                    zoom = 3.0  # fator de zoom para alta qualidade
+                    # Ajustar o fator de zoom para renderização inicial
+                    # Para documents A4, usamos um fator que gera uma visualização similar ao Word
+                    # Tamanho A4 em pixels a 96 DPI: 794 x 1123
+                    # O zoom de renderização é alto para qualidade, mas será escalado depois
+                    zoom = 2.0  # Fator de zoom para renderização em alta qualidade
                     mat = fitz.Matrix(zoom, zoom)
                     pix = page.get_pixmap(matrix=mat)
 
@@ -238,6 +241,37 @@ class PDFHeaderViewer(QWidget):
                 
                 # Definir zoom inicial para 100%
                 self.current_zoom = 1.0
+                
+                # Ajustar a largura do widget para simular a exibição do Word
+                if len(self.pixmaps) > 0:
+                    # Obter o tamanho disponível na área de visualização
+                    view_width = self.scroll_area.width() - 30  # Margem para scrollbar vertical
+                    
+                    # Calcula o fator de escala para melhor aproveitamento
+                    # Tamanho típico em proporção similar ao Word
+                    ideal_width = 650  # Largura ideal em pixels
+                    
+                    # Obter a largura atual do pixmap em 100%
+                    pixmap_width = self.pixmaps[0].width()
+                    
+                    # Ajustar o zoom para dar uma proporção similar ao Word
+                    # Mantém-se em 100% visualmente, mas a escala real é ajustada
+                    if pixmap_width > ideal_width:
+                        scale_factor = ideal_width / pixmap_width
+                        
+                        # Aplicamos o fator de escala aos pixmaps
+                        for i, pixmap in enumerate(self.pixmaps):
+                            new_width = int(pixmap.width() * scale_factor)
+                            new_height = int(pixmap.height() * scale_factor)
+                            scaled_pixmap = pixmap.scaled(
+                                new_width, 
+                                new_height,
+                                Qt.AspectRatioMode.KeepAspectRatio,
+                                Qt.TransformationMode.SmoothTransformation
+                            )
+                            self.pixmaps[i] = scaled_pixmap
+                
+                # Atualizar a visualização
                 self.update_page()
                 
                 # Mostrar/ocultar controles de navegação conforme necessário
