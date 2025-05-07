@@ -6,7 +6,7 @@ import base64
 from pathlib import Path
 import fitz  # PyMuPDF
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QLabel, QApplication, 
-                            QGraphicsView, QGraphicsScene, QScrollArea, QHBoxLayout, QFrame, QPushButton)
+                            QGraphicsView, QGraphicsScene, QScrollArea, QHBoxLayout, QFrame, QPushButton, QTextEdit, QGroupBox)
 from PyQt6.QtCore import QUrl, QObject, pyqtSlot, pyqtSignal, QSize, QBuffer, QByteArray, QIODevice, Qt
 from PyQt6.QtGui import QPixmap, QImage, QPainter
 import re
@@ -37,22 +37,25 @@ class PDFHeaderViewer(QWidget):
         # Configurar estilos para os botões
         button_style = """
             QPushButton {
-                background-color: #f0f0f0;
-                border: 1px solid #a0a0a0;
+                background-color: #1a237e;  /* Azul escuro */
+                color: #ffffff;             /* Texto branco */
+                border: 1px solid #3949ab;
                 border-radius: 4px;
                 padding: 4px;
                 font-weight: bold;
                 font-size: 14px;
             }
             QPushButton:hover {
-                background-color: #e0e0e0;
+                background-color: #283593;
+                color: #ffffff;
             }
             QPushButton:pressed {
-                background-color: #d0d0d0;
+                background-color: #0d133d;
+                color: #ffffff;
             }
             QPushButton:disabled {
-                background-color: #f8f8f8;
-                color: #a0a0a0;
+                background-color: #e8eaf6;
+                color: #b0b0b0;
             }
         """
         
@@ -125,6 +128,50 @@ class PDFHeaderViewer(QWidget):
         self.scroll_area.setWidget(self.pdf_label)
         
         self.layout.addWidget(self.scroll_area)
+
+        # Botão para editar cabeçalho
+        self.edit_header_btn = QPushButton("Editar Cabeçalho")
+        self.edit_header_btn.setFixedHeight(40)
+        self.edit_header_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #00897b;
+                color: #ffffff;
+                border-radius: 4px;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            QPushButton:hover {
+                background-color: #26a69a;
+            }
+        """)
+        self.edit_header_btn.clicked.connect(self.toggle_header_section)
+        self.layout.addWidget(self.edit_header_btn)
+
+        # Seção de edição do cabeçalho (inicialmente oculta)
+        self.header_group = QGroupBox("Cabeçalho do Documento")
+        self.header_group.setVisible(False)
+        header_layout = QVBoxLayout()
+        self.header_edit = QTextEdit()
+        self.header_edit.setPlaceholderText("Edite ou crie o cabeçalho aqui...")
+        header_layout.addWidget(self.header_edit)
+
+        # Botão para salvar alterações no cabeçalho
+        self.save_header_btn = QPushButton("Salvar Cabeçalho")
+        self.save_header_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #3949ab;
+                color: #fff;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background-color: #5c6bc0;
+            }
+        """)
+        self.save_header_btn.clicked.connect(self.save_header)
+        header_layout.addWidget(self.save_header_btn)
+        self.header_group.setLayout(header_layout)
+        self.layout.addWidget(self.header_group)
     
     def zoom_in(self):
         """Aumenta o zoom"""
@@ -287,6 +334,9 @@ class PDFHeaderViewer(QWidget):
                 
                 # Captura as informações do cabeçalho sem modificá-lo
                 self._extract_header_data(doc, doc[0])
+                # Atualiza o editor de cabeçalho se estiver visível
+                if self.header_group.isVisible():
+                    self.header_edit.setPlainText(self.get_header_text())
 
                 # Fecha o documento
                 doc.close()
@@ -376,3 +426,42 @@ class PDFHeaderViewer(QWidget):
         temp_dir = Path("output/temp")
         temp_dir.mkdir(parents=True, exist_ok=True)
         return str(temp_dir / f"header_temp_{hash(self.current_pdf_path)}.png")
+
+    def toggle_header_section(self):
+        """Mostra ou oculta a seção de edição do cabeçalho"""
+        visible = not self.header_group.isVisible()
+        self.header_group.setVisible(visible)
+        if visible:
+            # Preenche o editor com o cabeçalho atual, se houver
+            header_text = self.get_header_text()
+            self.header_edit.setPlainText(header_text)
+
+    def get_header_text(self):
+        """Obtém o texto do cabeçalho atual, se existir"""
+        if self.header_data and self.header_data.get("text_elements"):
+            # Junta os textos dos elementos do cabeçalho
+            return "\n".join([el["text"] for el in self.header_data["text_elements"] if el["text"].strip()])
+        return ""
+
+    def save_header(self):
+        """Salva as alterações feitas no cabeçalho e atualiza a preview"""
+        new_header = self.header_edit.toPlainText()
+        # Atualiza os dados do cabeçalho
+        self.header_data["text_elements"] = [{
+            "text": line,
+            "bbox": [0, 0, 0, 0],  # Pode ser ajustado conforme necessário
+            "fontSize": 12,
+            "fontName": "Arial"
+        } for line in new_header.splitlines() if line.strip()]
+        # Atualiza a preview (pode ser customizado para mostrar o novo cabeçalho)
+        self.update_preview_with_header()
+
+    def update_preview_with_header(self):
+        """Atualiza a preview para refletir o novo cabeçalho"""
+        # Aqui você pode implementar a lógica para atualizar a preview do PDF
+        # com o novo cabeçalho. Por simplicidade, apenas atualiza o sinal.
+        self.header_captured.emit(
+            self.current_pdf_path,
+            None,
+            self.header_data
+        )
